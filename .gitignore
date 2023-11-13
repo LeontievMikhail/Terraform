@@ -51,3 +51,6 @@ terraform.rc
 # Ignore sensitive files with secrets or API keys
 secrets.tfvars
 *.pem
+
+#Ignore terraform files
+.terraform.lock.hcl
