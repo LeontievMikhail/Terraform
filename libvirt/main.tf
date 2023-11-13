@@ -8,7 +8,7 @@ terraform {
 }
 
 variable "VM_COUNT" {
-  default = 2
+  default = 1
   type = number
 }
 
