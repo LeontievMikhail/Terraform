@@ -8,5 +8,7 @@ security_driver = "none"
 ssh developer@10.10.10.xx
 
 > Resize cloud image  and put the path to image in my main.tf
+```
 wget $CLOUD_IMAGE
 qemu-img resize $CLOUD_IMAGE 40G
+```
