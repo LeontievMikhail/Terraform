@@ -6,3 +6,8 @@ security_driver = "none"
 
 # Connect to new instance
 ssh developer@10.10.10.xx
+
+# Workaround I have for now:
+wget $CLOUD_IMAGE
+qemu-img resize $CLOUD_IMAGE 40G
+# Put the path to image in my main.tf
